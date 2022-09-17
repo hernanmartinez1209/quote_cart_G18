@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.cart__Principal{
+    background-color: #fff;
+    width: 600px;
+    
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px black;
+    display: flex  ;
+    position: absolute;
+    font-family: 'Oswald', sans-serif;
+}
+.h25{
+    
+    font-size: 150px;
+    padding-left: 20px;
+    position: relative;
+    bottom: 35px;
+    
+}
+.h2{
+    position: relative;
+    bottom: 80px;
+    left: 280px;   
+}
+.p{
+   position: relative;
+   bottom: 230px;
+   left: 100px;
+   
+   width: 400px;
+   height: 30px;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    bottom: 90px;
+    left: 490px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 11px black;
+    font-size: 20px;
+}
