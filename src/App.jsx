@@ -4,7 +4,7 @@ import './App.css'
 import colors from './utils/colors'
 import quote from './json/quote.json'
 import QuoteBox from './components/QuoteBox'
-import QuoteBnt from './components/QuoteBnt'
+
 
 function App() {
   const getIndexRandom = array => Math.floor(Math.random() * array.length)
