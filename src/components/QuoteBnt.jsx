@@ -6,7 +6,7 @@ const QuoteBnt = ({getAll,colorsRandom}) => {
     }
   return (
     <div>
-    <button className='btn' onClick={getAll} style={colorsbg}>&gt;</button>
+    <button className='btn__showQuote' onClick={getAll} style={colorsbg}>&gt;</button>
     </div>
   )
 }

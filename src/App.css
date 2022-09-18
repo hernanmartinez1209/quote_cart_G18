@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.App{
+
+.App {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -12,39 +14,44 @@
     justify-items: center;
     align-items: center;
 }
-.cart__Principal{
+
+.cart__Principal {
     background-color: #fff;
     width: 600px;
-    
+
     height: 260px;
     border-radius: 10px;
     box-shadow: 1px 1px 15px black;
-    display: flex  ;
+    display: flex;
     position: absolute;
     font-family: 'Oswald', sans-serif;
 }
-.h25{
-    
+
+.comilla__cartP {
+
     font-size: 150px;
     padding-left: 20px;
     position: relative;
     bottom: 35px;
-    
+
 }
-.h2{
+
+.h2__cartP {
     position: relative;
     bottom: 80px;
-    left: 280px;   
+    left: 280px;
 }
-.p{
-   position: relative;
-   bottom: 230px;
-   left: 100px;
-   
-   width: 400px;
-   height: 30px;
+
+.p__cartP {
+    position: relative;
+    bottom: 230px;
+    left: 100px;
+
+    width: 400px;
+    height: 30px;
 }
-.btn{
+
+.btn__showQuote {
     width: 50px;
     height: 50px;
     border: none;
@@ -57,55 +64,60 @@
     padding: 10px;
     box-shadow: 1px 1px 11px black;
     font-size: 20px;
-    
+
 }
+
 @media (max-width: 700px) {
-  
-    .App{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-}
-.cart__Principal{
-    background-color: #fff;
-    width: 350px;
-    
-    height: 310px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 15px black;
-    display: flex  ;
-    position: absolute;
-    font-family: 'Oswald', sans-serif;
-}
-.h2{
-    position: relative;
-    bottom: 20px;
-    left: 110px;   
-}
-.p{
-    position: relative;
-    bottom: 230px;
-    left: 100px;
-    
-    width: 230px;
-    height: 30px;
- }
- .btn{
-    width: 50px;
-    height: 50px;
-    border: none;
-    border-radius: 50%;
-    position: relative;
-    bottom: 40px;
-    left: 270px;
-    cursor: pointer;
-    color: white;
-    padding: 10px;
-    box-shadow: 1px 1px 11px black;
-    font-size: 20px;
-    
-}
+
+    .App {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .cart__Principal {
+        background-color: #fff;
+        width: 350px;
+
+        height: 310px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 15px black;
+        display: flex;
+        position: absolute;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .h2__cartP {
+        position: relative;
+        bottom: 20px;
+        left: 110px;
+    }
+
+    .p__cartP {
+        position: relative;
+        bottom: 230px;
+        left: 100px;
+
+        width: 230px;
+        height: 30px;
+    }
+
+    .btn__showQuote {
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 50%;
+        position: relative;
+        bottom: 40px;
+        left: 270px;
+        cursor: pointer;
+        color: white;
+        padding: 10px;
+        box-shadow: 1px 1px 11px black;
+        font-size: 20px;
+
+    }
 }
